@@ -19,6 +19,7 @@
 - To build change the "outputPath": "docs/sandbox-modules/" within the angular.json folder
 - Within reference file, add the relative path of the build directory -> '/sandbox-modules/assets/mongodb.json'
 - Use the following command -> --output-path docs --base-href /sandbox-modules/
+- To ensure the path is correct, do not place a forward slash in front of the directory containing the asset -> dir/asset
 
 ## Discrepancies
 - Too many to count...
