@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-const config = '/assets/mongodb.json';
+const config = 'sandbox-module/assets/mongodb.json';
 
 @Injectable()
 export class ConfigService {
