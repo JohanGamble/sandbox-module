@@ -1,0 +1,6 @@
+<p-tabView (onChange)="onTabChange($event)">
+    <p-tabPanel [header]="item.data.title" *ngFor="let item of items; let i = index" [selected]="i == 0"
+        [headerStyle]="item.data.header.style">
+    </p-tabPanel>
+    <ng-template setting-view></ng-template>
+</p-tabView>

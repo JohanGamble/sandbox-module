@@ -1,0 +1,5 @@
+<div class="general-info">
+    <ng-template ngFor let-module [ngForOf]="incomingData.data" let-i="index">
+        <app-card [content]="module"></app-card>
+    </ng-template>
+</div>

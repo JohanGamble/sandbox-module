@@ -1,0 +1,29 @@
+## Description
+- Eventual dynamic generic modules to display dynamic information
+
+## Component Architecture
+- A module can be:
+  + a container
+  + a menu-item
+  + a tab
+  + a card
+
+- A module has:
+  + a state
+  + a service
+
+* Base Module Container Component
+  - menu-item
+
+## Build
+- To build change the "outputPath": "docs/sandbox-modules/" within the angular.json folder
+- Within reference file, add the relative path of the build directory -> '/sandbox-modules/assets/mongodb.json'
+- Use the followind command -> --output-path docs --base-href /sandbox-modules/
+
+## Discrepancies
+- Too many to count...
+
+## Improvements
+- A generic module shall be provided to all inheritance
+- Interfaces shall be provided for each module entity
+- A module entity shall be defined within a service

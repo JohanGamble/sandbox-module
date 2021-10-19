@@ -1,0 +1,12 @@
+<div class="content-header">{{headerComponent}}</div>
+<div class="content-manager">
+    <div class="display-container">
+        <div class="display-content">
+            <div *ngFor="let mod of dataModules; index as i">
+                <app-menu-item [menuItem]="dataModules[i]" (onModuleClick)="processModuleStateValues($event)">
+                </app-menu-item>
+            </div>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>

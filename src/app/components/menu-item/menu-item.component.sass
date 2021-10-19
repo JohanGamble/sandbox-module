@@ -1,0 +1,30 @@
+.module-container
+    height: auto
+    width: 100%
+    display: flex
+    flex-direction: column
+    gap: 2px
+.module-header
+    border: 1px solid
+    border-color: #ddd
+    border-radius: 2px
+    text-align: center
+    font-size: small
+.module-content
+    border: 1px solid
+    border-color: #ddd
+    margin-bottom: 2px
+    width: 100%
+    cursor: pointer
+    transition: transform 1s
+.module-open
+    transform: translateX(104%)
+.module-close
+    transform: none
+button
+    background-color: transparent
+    padding: 0
+
+@media (max-width: 868px)
+    .module-open
+        transform: translate(0, 0)
