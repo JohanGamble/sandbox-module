@@ -1,6 +1,5 @@
 <div [id]="menuItem.id" class="module-container">
-    <div class="module-header"><span>{{menuItem.header}}</span></div>
     <button class="module-content" [class]="moduleTransition" (click)="eventModuleClick()">
-        Description of module functionality
+        {{menuItem.header}}
     </button>
 </div>
